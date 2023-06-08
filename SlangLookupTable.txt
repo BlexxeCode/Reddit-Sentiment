@@ -1,0 +1,262 @@
+121-one to one
+a/s/l-age, sex, location
+adn-any day now
+afaik-as far as I know
+afk-away from keyboard
+aight-alright
+alol-actually laughing out loud
+b4-before
+b4n-bye for now
+bak-back at the keyboard
+bf-boyfriend
+bff-best friends forever
+bfn-bye for now
+bg-big grin
+bta-but then again
+btw-by the way
+cid-crying in disgrace
+cnp-continued in my next post
+cp-chat post
+cu-see you
+cul-see you later
+cul8r-see you later�
+cya-bye
+cyo-see you online�
+dbau-doing business as usual�
+fud-fear, uncertainty, and doubt�
+fwiw-for what it's worth�
+fyi-for your information
+g-grin�
+g2g-got to go�
+ga-go ahead�
+gal-get a life�
+gf-girlfriend�
+gfn-gone for now
+gmbo-giggling my butt off�
+gmta-great minds think alike�
+h8-hate
+hagn-have a good night�
+hdop-help delete online predators�
+hhis-hanging head in shame�
+iac-in any case�
+ianal-I am not a lawyer
+ic-I see�
+idk-I don't know�
+imao-in my arrogant opinion
+imnsho-in my not so humble opinion�
+imo-in my opinion�
+iow-in other words�
+ipn-I�m posting naked�
+irl-in real life�
+jk-just kidding
+l8r-later
+ld-later, dude�
+ldr-long�distance�relationship�
+llta-lots and lots of thunderous applause�
+lmao-laugh my ass off
+lmirl-let's meet in real life�
+lol-laugh out loud
+ltr-longterm relationship�
+lulab-love you like a brother�
+lulas-love you like a sister�
+luv-love
+m/f-male or female�
+m8-mate
+milf-mother I would like to fuck
+oll-online�love�
+omg-oh my god
+otoh-on the other hand�
+pir-parent in room
+ppl-people
+r-are
+rofl-roll on the floor laughing
+rpg-role playing games
+ru-are you
+shid-slaps head in disgust
+somy-sick of me yet
+sot-short of time�
+thanx-thanks
+thx-thanks
+ttyl-talk to you later�
+u-you
+ur-you are
+uw-you�re welcome�
+wb-welcome back�
+wfm-works for me�
+wibni-wouldn't it be nice if�
+wtf-what the fuck
+wtg-way to go
+wtgp-want to go private
+ym-young man
+ROFL-Rolling on the floor laughing
+STFU-Shut the fuck up
+ICYMI-In case you missed it
+TLDR-Too long, didn�t read
+TMI-Too much information
+AFAIK-As far as I know
+LMK-Let me know
+NVM-Nevermind
+FTW-For the win
+BYOB-Bring your own beer
+BOGO-Buy one get one
+JK-Just kidding
+JW-Just wondering
+TGIF-Thank goodness it�s Friday
+TBH-To be honest
+TBF-To be frank
+RN-Right now
+FUBAR-Fucked up beyond all recognition
+BRB-Be right back
+ISO-In search of
+BRT-Be right there
+BTW-By the way
+FTFY-Fixed that for you
+GG-Good game
+BFD-Big freaking deal
+IRL-In real life
+DAE-Does anyone else?
+LOL-Laugh out loud
+SMH-Shaking my head
+NGL-Not gonna lie
+BTS-Behind the scenes
+IKR-I know right
+TTYL-Talk to you later
+HMU-Hit me up
+FWIW-For what it�s worth
+IMO-In my opinion
+WYD-What are you doing?
+IMHO-In my humble opinion
+IDK-I don�t know
+IDC-I don�t care
+IDGAF-I don�t give a fuck
+NBD-No big deal
+TBA-To be announced
+TBD-To be decided
+AFK-Away from keyboard
+ABT-About
+IYKYK-If you know you know
+B4-Before
+BC-Because
+JIC-Just in case
+FOMO-Fear of missing out
+SNAFU-Situation normal, all fucked up
+GTG-Got to go
+G2G-Got to go
+H8-Hate
+LMAO-Laughing my ass off
+IYKWIM-If you know what I mean
+MYOB-Mind your own business
+POV-Point of view
+TLC-Tender loving care
+HBD-Happy birthday
+W/E-Whatever
+WTF-What the fuck
+FWIF-For what it�s worth
+TW-Trigger warning
+EOD-End of day
+FAQ-Frequently asked question
+AKA-Also known as
+ASAP-As soon as possible
+DIY-Do it yourself
+LMGTFY-Let me Google that for you
+NP-No problem
+N/A-Not applicable or not available
+OOO-Out of office
+TIA-Thanks in advance
+COB-Close of business
+FYI-For your information
+NSFW-Not safe for work
+WFH-Work from home
+OMW-On my way
+WDYT-What do you think?
+WYGAM-When you get a minute
+SMP-Social media platform
+DM-Direct message
+FB-Facebook
+IG-Instagram
+LI-LinkedIn
+YT-YouTube
+FF-Follow Friday
+IM-Instant message
+PM-Private message
+OP-Original post
+QOTD-Quote of the day
+OOTD-Outfit of the day
+RT-Retweet
+TBT-Throwback Thursday
+TIL-Today I learned
+AMA-Ask me anything
+ELI5-Explain like I�m 5
+FBF-Flashback Friday
+MFW-My feeling when
+HMU-Hit me up
+ILY-I love you
+MCM-Man crush Monday
+WCW-Woman crush Wednesday
+BF-Boyfriend
+GF-Girlfriend
+BAE-Before anyone else
+LYSM-Love you so much
+PDA-Public display of affection
+LTR-Longterm relationship
+DTR-Define the relationship
+LDR-Long distance relationship
+XOXO-Hugs and kisses
+OTP-One true pairing
+LOML-Love of my life
+CTA-Call to action
+UGC-User generated content
+UX-User experience
+SMS-Short message service
+MMS-Multimedia messaging service
+RCS-Rich communication services
+ROI-Return on investment
+CTR-Click through rate
+CPC-Cost per click
+CR-Conversion rate
+SMB-Small/medium business
+TOS-Terms of service
+SEO-Search engine optimization
+5G-5th generation mobile communications
+TCPA-Telephone Consumer Protection Act
+CMV-change my view
+YMMV-your mileage may vary
+HIFW-how I felt when
+PII-personally identifiable information
+UPVOTE-positive
+DOWNVOTE-negative
+API-Application Programming Interface
+B2B-Business to business
+B2C-Business to consumer
+BFF-Best Friends Forever
+BTS-Behind the scenes
+BWL-Bursting with laughter
+BTW-By the way
+CTA-Call to action
+CX-Customer experience
+DYK-Did you know
+F2F-Face to face
+FTFY-Fixed that for you
+Gr8-Great
+GOAT-Greatest of all time
+GTR-Got to run
+HIFW-How I feel when
+ICYMI-In case you missed it
+ISP-Internet service provider
+JK-Just kidding
+LMK-Let me know
+NSFL-Not safe for life
+OMW-On my way
+OOO-Out of office
+PSA-Public service announcement
+SFW-Safe for work
+Thx-Thanks
+TMI-Too much information
+TOS-Terms of Service
+TTYL-Talk to you later
+Txt-Text
+WFH-Working from home
+YOLO-You only live once
+YSK-You should know
+tf-the fuck
+/s-sarcasm
