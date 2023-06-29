@@ -143,19 +143,17 @@ def get_sentiment(sentence):
     data_text['Text'] = data_text['Text'].apply(lambda x: preprocessor.slang_switch(x, slang))
     data_text['Text'] = data_text['Text'].apply(preprocessor.remove_unneeded)
     data_text['Text'] = data_text['Text'].apply(preprocessor.preprocess)
-    #data_text['Text'] = data_text['Text'].apply(preprocessor.add_negation)
     data_text[['scores_neg', 'scores_neu', 'scores_pos', 'scores_compound']] = data_text['Text'].apply(lambda x: pd.Series(nltk_sentiment(x)))
     #data_text['scores2'] = data_text['Text'].apply(spacy_sentiment)
+
+    MultiNB = joblib.load('nb_classifier.pkl')
+    data_text['Text'] = data_text['Text'].apply(preprocessor.add_negation)
+    vectorizer = joblib.load('vectorizer.pkl')
+    X = vectorizer.transform(data_text['Text'])
+    data_text['scores_NB'] = MultiNB.predict(X)
+    data_text['scores_NB'].replace(0, -1, inplace=True)
+
     display(data_text)
-    #display(data_text['scores1'])
-
-
-    print(f"Negative: {data_text['scores_neg'].mean()}")
-    print(f"Neutral: {data_text['scores_neu'].mean()}")
-    print(f"Positive: {data_text['scores_pos'].mean()}")
-    print(f"Compound(No zeros): {data_text.loc[data_text['scores_compound'] != 0.0, 'scores_compound'].mean()}")
-    print(f"Compound: {data_text['scores_compound'].mean()}")
-    data_text.to_csv('data.csv')
 
 
 
