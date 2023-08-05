@@ -140,21 +140,49 @@ def get_sentiment(sentence):
     data_text = pd.DataFrame(text_map)
     preprocessor = Full_process()
     slang = preprocessor.slang_load('SlangLookupTable.txt')
-    data_text['Text'] = data_text['Text'].apply(lambda x: preprocessor.slang_switch(x, slang))
     data_text['Text'] = data_text['Text'].apply(preprocessor.remove_unneeded)
+    data_text['Text'] = data_text['Text'].apply(lambda x: preprocessor.slang_switch(x, slang))
     data_text['Text'] = data_text['Text'].apply(preprocessor.preprocess)
     data_text[['scores_neg', 'scores_neu', 'scores_pos', 'scores_compound']] = data_text['Text'].apply(lambda x: pd.Series(nltk_sentiment(x)))
     #data_text['scores2'] = data_text['Text'].apply(spacy_sentiment)
 
-    MultiNB = joblib.load('nb_classifier.pkl')
     data_text['Text'] = data_text['Text'].apply(preprocessor.add_negation)
-    vectorizer = joblib.load('vectorizer.pkl')
-    X = vectorizer.transform(data_text['Text'])
-    data_text['scores_NB'] = MultiNB.predict(X)
+    data_text['Text'] = data_text['Text'].apply(preprocessor.remove_emoji)
+
+    #load first batch of models
+    MultiNB = joblib.load('nb_classifier.pkl')
+    SVC1 = joblib.load('SVC_classifier.pkl')
+    LR = joblib.load('LR_classifier.pkl')
+    SVC2 = joblib.load('SVC_sig_classifier.pkl')
+
+    #load vectorizers
+    vectorizer1 = joblib.load('vectorizer.pkl')
+    vectorizer2 = joblib.load('vectorizer_2.pkl')
+    X1 = vectorizer1.transform(data_text['Text'])
+    X2 = vectorizer2.transform(data_text['Text'])
+
+    #predict
+    data_text['scores_NB'] = MultiNB.predict(X1)
+    data_text['scores_SVC1'] = SVC1.predict(X1)
+    data_text['scores_LR'] = LR.predict(X2)
+    data_text['scores_SVC2'] = SVC2.predict(X2)
     data_text['scores_NB'].replace(0, -1, inplace=True)
+    data_text['scores_SVC1'].replace(0, -1, inplace=True)
+
+
 
     display(data_text)
 
+
+    print(f"Negative: {data_text['scores_neg'].mean()}")
+    print(f"Neutral: {data_text['scores_neu'].mean()}")
+    print(f"Positive: {data_text['scores_pos'].mean()}")
+    print(f"Compound(NLTK): {data_text['scores_compound'].mean()}")
+    print(f"Compound(NB): {data_text['scores_NB'].mean()}")
+    print(f"Compound(SVC): {data_text['scores_SVC1'].mean()}")
+    print(f"Compound(LR): {data_text['scores_LR'].mean()}")
+    print(f"Compound(SVC__sig): {data_text['scores_SVC2'].mean()}")
+    data_text.to_csv('data.csv')
 
 
 def create_wordplot(text):
